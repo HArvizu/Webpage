@@ -1,0 +1,1189 @@
+<!-- HOME PAGE -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hector Arvizu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <style type="text/css">
+    body 
+    {
+      text-align: left;
+      background: linear-gradient(to bottom, #f4f4f9, #E0E0E6);
+      color: #333;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #wrapper 
+    {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    #header 
+    {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 4px solid #388E3C;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    #nav 
+    {
+      background-color: #333;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #nav a 
+    {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    #nav a:hover 
+    {
+      background-color: #575757;
+    }
+    
+    #main 
+    {
+      display: flex;
+      flex-wrap: wrap;
+      animation: slideIn 1s ease-out;
+    }
+
+    @keyframes slideIn 
+    {
+      from { transform: translateX(-100%); }
+      to { transform: translateX(0); }
+    }
+    
+    #left-column, #right-column 
+    {
+      flex: 1;
+      min-width: 300px;
+      margin: 10px;
+    }
+
+    #additional-text 
+    {
+      border-top: 2px solid #4CAF50;
+      padding-top: 10px;
+      margin-top: 20px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .small-heading 
+    {
+      font-size: 1.125rem;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    
+    .details 
+    {
+      margin: 5px 0;
+    }
+
+    footer 
+    {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    #text, #additional-text, #contact-info 
+    {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      width: 100%;
+      text-align: left;
+    }
+
+    #contact-info 
+    {
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse 
+    {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    @keyframes fadeIn 
+    {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @media (min-width: 768px) 
+    {
+      #text, #additional-text, #contact-info 
+      {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <h1>Hector Arvizu</h1>
+    </div>
+    <div id="nav">
+      <a href="Modern - Project1.html">Project 1</a>
+      <a href="Modern - Project2.html">Project 2</a>
+      <a href="Modern - Project3.html">Project 3</a>
+      <a href="Modern - Project4.html">Project 4</a>
+    </div>
+    <div id="main">
+      <div id="left-column">
+        <div id="contact-info">
+          <p><i class="fas fa-envelope"></i> arvizuha@gmail.com</p>
+          <p><i class="fas fa-phone"></i> 951.265.7285</p>
+          <p><i class="fas fa-map-marker-alt"></i> Temecula, CA</p>
+        </div>
+        <div id="additional-text">
+          <h2 class="small-heading">EDUCATION</h2>
+          <p class="details">COMPUTER ENGINEERING B. A.</p>
+          <p class="details">Cal State Polytechnic University, Pomona</p>
+          <p class="details">May, 2024</p>
+          <p></p>
+          <p class="details">SCIENCE A.S.</p>
+          <p class="details">Mt. San Jacinto College</p>
+          <p class="details">May, 2020</p>
+        </div>
+        <div id="additional-text">
+          <h2 class="small-heading">SKILLS</h2>
+          <p class="details">English</p>
+          <p class="details">Spanish</p>
+          <p class="details">Japanese</p>
+          <p class="details">Strong communicator</p>
+          <p class="details">Time management</p>
+          <p class="details">Attentive reader</p>
+          <p class="details">Cooperative</p>
+          <p class="details">Resourceful</p>
+          <p class="details">Delegate</p>
+          <p class="details">Receptive</p>
+          <p class="details">Adaptable</p>
+        </div>
+      </div>
+      <div id="right-column">
+        <div id="text">
+          <h2 class="small-heading">Summary</h2>
+          <ul>
+            <li>A hardworking, ambitious, and cooperative individual interested in becoming part of a team where I can contribute and make a positive impact.</li>
+          </ul>
+          <h2 class="small-heading">Teamwork Experience</h2>
+          <ul>
+            <li><strong>JAVA Development:</strong>
+              <ul>
+                <li>Group indie project from August 2023 - May 2024.</li>
+                <li>Responsible for providing a layout for a java fitness app.</li>
+                <li>Worked alongside with individuals to create a function app.</li>
+              </ul>
+            </li>
+
+            <li><strong>C++ Development:</strong>
+              <ul>
+                <li>Group indie projects from August 2019 - December 2020.</li>
+                <li>Trusted with providing layout of c++ code for higher development.</li>
+                <li>Worked alongside with individuals to create various programs for personal use.</li>
+              </ul>
+            </li>
+
+            <li><strong>GUI Development:</strong>
+              <ul>
+                <li>Created several game projects from August 2022 - December 2022.</li>
+                <li>Provided graphic design experience on said projects.</li>
+              </ul>
+            </li>
+
+            <li><strong>Electrical Engineering Labs:</strong>
+              <ul>
+                <li>Worked in circuit board labs from August 2020 - May 2023.</li>
+                <li>Used software experience to work with groups in microcontrollers.</li>
+                <li>Developed communication skills with individuals on creating circuit boards.</li>
+                <li>Accomplished software and hardware achievements when working with groups using verilog coding on FPGA boards.</li>
+              </ul>
+            </li>
+
+            <li><strong>Podcast Development:</strong>
+              <ul>
+                <li>Internship at Yumlish from October 2023 - May 2024.</li>
+                <li>Worked with marketing teams on how to advertise podcasts.</li>
+                <li>Maintain editorial standards of accuracy, thoroughness, ethics, and diversity.</li>
+              </ul>
+            </li>
+          </ul>
+
+          <h2 class="small-heading">Software Experience</h2>
+          <ul>
+            <li><strong>C++ PROGRAMMING:</strong>
+              <ul>
+                <li>History with class encapsulation and exception handling.</li>
+                <li>Background in memory management using pointers.</li>
+                <li>Handled software reuse for object oriented programs.</li>
+              </ul>
+            </li>
+
+
+
+          <li><strong>JAVA PROGRAMMING:</strong>
+            <ul>
+              <li>Involved in several GUI development group projects.</li>
+              <li>Worked with several multimedia applications while multi-tasking.</li>
+              <li>Studied network programming.</li>
+            </ul>
+          </li>
+
+          <li><strong>HTML PROGRAMMING</strong>
+            <ul>
+              <li>Understands the fundamentals of web design.</li>
+              <li>Able to organize content, structure and layout of websites.</li>
+              <li>Willing to learn new techniques about the ever-evolving standards of web design.</li>
+            </ul>
+
+          <li><strong>ADOBE</strong>
+            <ul>
+              <li>History with Photoshop since 2009.</li>
+              <li>Worked on several personal projects involving After Effects.</li>
+              <li>Enjoys discovering new concepts in Premiere Pro.</li>
+              <li>Understands the fundamentals in Audition.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>© 2024 Hector Arvizu</p>
+  </footer>
+</body>
+</html>
+
+
+
+<!-- PAGE 1 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project 1: WAS Fitness</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <style type="text/css">
+    body 
+    {
+      text-align: left;
+      background: linear-gradient(to bottom, #f4f4f9, #E0E0E6);
+      color: #333;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #wrapper 
+    {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    #header 
+    {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 4px solid #388E3C;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    #nav 
+    {
+      background-color: #333;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #nav a 
+    {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    #nav a:hover 
+    {
+      background-color: #575757;
+    }
+    
+    #main 
+    {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation: slideIn 1s ease-out;
+    }
+
+    @keyframes slideIn 
+    {
+      from { transform: translateX(-100%); }
+      to { transform: translateX(0); }
+    }
+    
+    #image, #text 
+    {
+      flex: 1;
+      min-width: 300px;
+      margin: 10px;
+    }
+    
+    #image img 
+    {
+      max-width: 100%;
+      height: auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #additional-text 
+    {
+      border-top: 2px solid #4CAF50;
+      padding-top: 10px;
+      margin-top: 20px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .small-heading 
+    {
+      font-size: 1.125rem;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    
+    .details 
+    {
+      margin: 5px 0;
+    }
+
+    footer 
+    {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    #text, #additional-text, #contact-info 
+    {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .equation 
+    {
+      text-align: center;
+    }
+
+    #contact-info 
+    {
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse 
+    {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    @keyframes fadeIn 
+    {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @media (min-width: 768px) 
+    {
+      #text, #additional-text, #contact-info 
+      {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <h1>Project 1: WAS Fitness</h1>
+    </div>
+    <div id="nav">
+      <a href="Modern - home.html">Home</a>
+      <a href="Modern - Project2.html">Project 2</a>
+      <a href="Modern - Project3.html">Project 3</a>
+      <a href="Modern - Project4.html">Project 4</a>
+    </div>
+    <div id="main">
+      <div class="center">
+        <video width="700" height="500" controls>
+            <source src="Demo1.mp4" type="video/mp4">
+        </video>
+      </div>
+      
+      <div id="text">
+      
+      <p>The goal of WAS Fitness Tracker is to provide a simplistic way of giving goal tracking, workout planning, and dietary monitoring for everyday users through a smartphone app. Using Java coding, the software is broken down into three phases that allows the user to fully explore the program. In Phase 1, users must log into the app with a created account. Moving onto Phase 2, that portion of the program allows the user to enter their information about their health in order to enter Phase 3 to access their diet plan and workout routines. A closer look at each of these phases will now be provided.</p>
+
+
+      <p>When users first open WAS Fitness Tracker, they are taken to the login page where they must first create an account to use the app. In Java, both the username and password are stored onto separate methods within the code until they are called upon when the user logs into the app. If both the username and password match with the same information that was saved, then the user is allowed to enter the app. However if the user enters the wrong information, then they are not permitted into the software. A simple “if” statement is used to guard the software and also retrieve the saved
+information of the user.</p>
+
+
+      <!-- <div class="figure float-left">
+        <img src="Pr1F1.jpg" width="150" height="300" alt="hello"/>
+        <div class="figure-caption">Figure 1</div>
+      </div> -->     
+      
+      
+      <p>Moving onto the second phase of this fitness app, the user is prompted to input information that regards the current state of their body. Using body mass index as the backbone for this portion of the code, a user is prompted to enter their height, weight, and age. At the same time, they are also given the option of inputting their gender. The final result involves a pop-up panel that displays the user’s current BMI and which health category they are labeled. Below are the following equations used to determine a user’s BMI.</p>
+     
+     
+     <p class="equation">𝑑𝑜𝑢𝑏𝑙𝑒 𝑤𝑒𝑖𝑔ℎ𝑡𝐼𝑛𝐿𝑏𝑠 = 𝑤𝑒𝑖𝑔ℎ𝑡 × 0. 453592</p>
+     <p class="equation">𝑑𝑜𝑢𝑏𝑙𝑒 ℎ𝑒𝑖𝑔ℎ𝑡 = (((𝑓𝑒𝑒𝑡 × 12) + 𝑖𝑛𝑐ℎ𝑒𝑠) × 0. 0254</p>
+     <p class="equation">𝑑𝑜𝑢𝑏𝑙𝑒 𝑏𝑚𝑖 = 𝑤𝑖𝑒𝑔ℎ𝑡𝐼𝑛𝐿𝑏𝑠 ÷ 𝑀𝑎𝑡ℎ. 𝑝𝑜𝑤(ℎ𝑒𝑖𝑔ℎ𝑡, 2. 0)</p>
+     
+     
+     <p>In order to provide workouts and diet plans specifically tailored to the user, a set of questions are asked that help provide the best possible outcome. The end result is a pop-up panel that displays the amount of calories that will be needed to intake per day. When it came to determining the calories, the program referred to the Harris-Benedict Equation [1] which is used to help determine the amount of energy a body needs. The software is able to take the user’s height, gender, age, and weight, and apply the data to determine the user’s basal metabolic rate (bmr). From there, the results are converted to determine a user’s total daily energy expenditure (tdee), based on the number of days they want to work out. Finally, based on how many pounds they want to lose, the user’s tdee is applied to determine the final number of calories, and the user can now access the main menu of the app. Below are the following equations used to calculate the calorie results.</p>
+     
+     
+     <p class="equation">𝑑𝑜𝑢𝑏𝑙𝑒 ℎ𝑒𝑖𝑔ℎ𝑡𝐼𝑛𝐼𝑛𝑐ℎ𝑒𝑠 = (𝑓𝑒𝑒𝑡 × 12) + 𝑖𝑛𝑐ℎ𝑒𝑠</p>
+     <p class="equation">𝑏𝑚𝑟 = 66 + (6. 23 × 𝑤𝑒𝑖𝑔ℎ𝑡) + (12. 7 × ℎ𝑒𝑖𝑔ℎ𝑡𝐼𝑛𝐼𝑛𝑐ℎ𝑒𝑠) − (6. 8 × 𝑎𝑔𝑒)</p>
+     <p class="equation">𝑡𝑑𝑒𝑒 = 1. 375 × 𝑏𝑚𝑟</p>
+     <p class="equation">𝐶𝑎𝑙𝑜𝑟𝑖𝑒𝑠 = (𝑖𝑛𝑡)(𝑡𝑑𝑒𝑒 − 1000)</p>
+      
+      
+      <!-- <div class="figure float-right">
+        <img src="Pr1F2.jpg" width="150" height="300" alt="hello"/>
+        <div class="figure-caption">Figure 2</div>
+      </div> -->    
+     
+     
+     <p>In the main menu, three buttons are provided, with the first button labeled as “Diet Plan.” User's are also able to view the amount of calories they need to maintain a healthy lifestyle while also having the option to further their curiosity by clicking on the button labeled “Eat This Much.” The app then opens a web browser to a nutrition and dietary website [2] where users can input their calculated calories. The output will generate several meal plans that a user can review and adjust based on their nutritional needs. In order to provide concrete dietary needs, a well established website was needed to provide direction on how users can start their meal plans. In future updates for this app, dietitians will be contacted in order to provide nutritional information that can be hard coded into the software.</p>
+     
+     
+     <p>Moving onto the next button on the main menu, users are able to access their workout regimen when they click on “Exercise Routine.” Based on the amount of calories users acquired from previous panels, and based on their BMI reading, a list of several workout routines is laid out in front of them, in the span of three months [8]. Also, each month focuses on a specific set of workouts that the user is able to select from and modify. Such selections include “Strength Gain”, “Maintenance”, and “Muscle Gain.” Each workout regimen is user friendly, allowing newcomers to easily adjust to their given exercises.</p>
+      
+      
+      <!-- <div class="figure float-left">
+        <img src="Pr1F3.jpg" width="150" height="300" alt="hello"/>
+        <div class="figure-caption">Figure 3</div>
+      </div> -->     
+     
+     
+     <p>Finally, users can look into their diet plan and workout routine by clicking “Final Review” on the main menu. The main function of this button is for users to make any adjustments to their current plans. These changes include altering their BMI in “Personal Info." Depending on their adjustments, the app will generate a new set of calories and workout regimens that will be more tailored for their new needs. It should be noted that once a user logs out of the app, all of their information is lost including their username and password. In future updates, the app will be programmed to save user data once the app shuts down. At the same time a new feature will be added to the software that will notify user’s during the day. These notifications will remind users on when to begin their exercises and when to start preparing their new meals.</p>
+     
+     
+     <p class="last-paragraph">The purpose of WAS Fitness Tracker is to provide a simplistic way of giving goal tracking, workout planning, and dietary monitoring for everyday users through a smartphone app. Using Java programming software, such as Java Eclipse, the program was coded from the ground up, allowing the project to not be limited by any budgetary constraints. Before this app is ready to launch on the market, several updates must be acknowledged. First, dietitians will be referred to in order to provide information for a functioning dietary feature. Next, the code will need to be adjusted in order to save personal information. Notification features will also play a role in further updates. Finally, the entire app will need to be repolished with more modern graphic designs that will attract new users. With time not an issue, further development will allow WAS Fitness Tracker to become a popular fitness app that will be simple and free to use.</p>
+     
+
+     
+     <center>References</center>
+     <p>[1] E. Pavlidou, S. K. Papadopoulou, K. Seroglou, and C. Giaginis, “Revised
+Harris–Benedict Equation: New Human Resting Metabolic Rate Equation,” Metabolites, vol. 13,
+no. 2, p. 189, Feb. 2023, doi: https://doi.org/10.3390/metabo13020189.</p>
+     <p>[2] Eat This Much, Inc, “Eat This Much, your personal diet assistant,” Eat This Much, 2019.
+https://www.eatthismuch.com/</p>
+     <p>[3] J. Iversen and M. Eierman, Learning mobile app development : a hands-on guide to
+building apps with iOS and Android. Upper Saddle River, Nj: Addison-Wesley, 2014.</p>
+     <p>[4] H. Schildt, Java : the complete reference. San Francisco: Mcgraw-Hill/Osborne, 2014.</p>
+     <p>[5] H. Schildt, Swing: A Beginner’s Guide. McGraw Hill Professional, 2006.</p>
+     <p>[6] “How to Start Exercising: A Beginner’s Guide to Working Out,” Healthline, Feb. 02,
+2021. https://www.healthline.com/nutrition/how-to-start-exercising#A-few-tips-for-beginners</p>
+     <p>[7] “The Ultimate 6-Day Workout Split: Arnold Schwarzenegger’s Blueprint to Mass | BLK
+BOX GYM,” www.blkboxgym.com.
+https://www.blkboxgym.com/blog/the-ultimate-6-day-workout-split-arnold-schwarzeneggers-blu
+eprint-to-mass</p>
+     <p>[8] “Arnold Split 2024: Full 6-Day Workout Plan For Muscle Mass,” Endomondo.
+https://www.endomondo.com/workouts/arnold-split</p>
+    </div>
+  </div>
+  <footer>
+    <p>© 2024 Hector Arvizu</p>
+  </footer>
+</body>
+</html>
+
+
+
+<!-- PAGE 2 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project 2: Movie Manager</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <style type="text/css">
+    body 
+    {
+      text-align: left;
+      background: linear-gradient(to bottom, #f4f4f9, #E0E0E6);
+      color: #333;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #wrapper 
+    {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    #header 
+    {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 4px solid #388E3C;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    #nav 
+    {
+      background-color: #333;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #nav a 
+    {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    #nav a:hover 
+    {
+      background-color: #575757;
+    }
+    
+    #main 
+    {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation: slideIn 1s ease-out;
+    }
+
+    @keyframes slideIn 
+    {
+      from { transform: translateX(-100%); }
+      to { transform: translateX(0); }
+    }
+    
+    #image, #text 
+    {
+      flex: 1;
+      min-width: 300px;
+      margin: 10px;
+    }
+    
+    #image img 
+    {
+      max-width: 100%;
+      height: auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #additional-text 
+    {
+      border-top: 2px solid #4CAF50;
+      padding-top: 10px;
+      margin-top: 20px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .small-heading 
+    {
+      font-size: 1.125rem;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    
+    .details 
+    {
+      margin: 5px 0;
+    }
+
+    footer 
+    {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    #text, #additional-text, #contact-info 
+    {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .equation 
+    {
+      text-align: center;
+    }
+
+    #contact-info 
+    {
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse 
+    {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    @keyframes fadeIn 
+    {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @media (min-width: 768px) 
+    {
+      #text, #additional-text, #contact-info 
+      {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <h1>Project 2: Movie Manager</h1>
+    </div>
+    <div id="nav">
+      <a href="Modern - home.html">Home</a>
+      <a href="Modern - Project1.html">Project 1</a>
+      <a href="Modern - Project3.html">Project 3</a>
+      <a href="Modern - Project4.html">Project 4</a>
+    </div>
+    <div id="main">
+      <!-- <center>Video goes here!</center> -->
+        <div class="center">
+          <iframe width="700" height="500" src="https://www.youtube.com/embed/aG0rfqIw-CU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+      	<div id="text">
+      
+        <p>The purpose of this java program is to provide an informative look on how critics review and rank movies. This program is meant for those who are curious about whether they should watch a highly acclaimed film, or a movie that fans adore. This innovative approach aims to provide a single solution for individuals who are having trouble with deciding on what film they should watch with their friends and family. Using a simplistic approach, users are able to document and store film data while at the same time, compare their research inorder to determine the perfect film for the night.</p>  
+        
+
+        <p>The main function of this code creates a panel for entering movie details, including fields for the title, IMDb score, Rotten Tomatoes score, Metacritic score, and other scores. It includes a button that calculates the overall score based on the entered scores, normalizing and averaging them as needed. The program is also able to save the movie details and can update the list of movies, either by adding a new movie or updating an existing one. As seen in Figure 1, the panel includes buttons to add another movie or return to the main menu, with action listeners to handle these actions. At the same time the code also replaces the main panel with the movie entry panel, updating the frame’s content and refreshing the display. This setup allows users to input and manage movie data within the application.</p>
+     
+
+        <!-- <div class="figure">
+            <img src="Pr2F1.jpg" width="550" height="275" alt="hello"/>
+            <div class="figure-caption">Figure 1</div>
+        </div> -->   
+
+        <p>Moving onto the second portion of the code, the next feature allows users to create a panel that displays a list of movies, sorted by each film’s final score, in descending order. As seen in Figure 2, users are able to have a visual representation of where their movie entries stand, in terms of critic and audience reviews. At the same time, the code is also able to determine a “Best Movie” where the program highlights and showcases the film with the highest score. Should users want to return to the main panel, they are able to through a return button. This function replaces the main panel with the movie list panel, updating the frame’s content and refreshing the display. This setup provides a user-friendly way to view and manage the list of movies within the application.</p>
+
+
+      <!-- <div class="figure float-left">
+        <img src="Pr2F2v2.jpg" width="150" height="200" alt="hello"/>
+        <div class="figure-caption">Figure 2</div>
+      </div> --> 
+
+
+        <p>It should be noted that the initial approach for this project was to have the java code access Google and have the data be filled in automatically when a user enters a movie title in the program. However, while it is technically possible to scrape data from Google search results, it was here where it was discovered that web scraping is a violation against Google’s Terms of Service. An alternative approach would be to use APIs provided by movie databases to fetch movie ratings. While IMDb offers an unofficial API that users can use to fetch movie details, including ratings, Rotten Tomatoes and Metacritic, however, do not currently offer public APIs. In order to respect the terms of use of the data provider, and to avoid any legal implications, this java program had to be simplified.</p>
+     
+     
+        <p class="last-paragraph">In summary, in completing this java program, a simple but effective application has been provided to the general audience that allows users to determine the best film to watch with their friends and family. In order to avoid any troubles, due to the legality issues of data scrapping, compromises had to be made in order to provide a functioning program for users. Despite these challenges, a simple yet effective application was developed that takes in the opinions of both fans and critics by providing a single view of how films can be reviewed and scored.</p>
+    </div>
+  </div>
+  <footer>
+    <p>© 2024 Hector Arvizu</p>
+  </footer>
+</body>
+</html>
+
+
+
+<!-- PAGE 3 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project 3: Today</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <style type="text/css">
+    body 
+    {
+      text-align: left;
+      background: linear-gradient(to bottom, #f4f4f9, #E0E0E6);
+      color: #333;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #wrapper 
+    {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    #header 
+    {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 4px solid #388E3C;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    #nav 
+    {
+      background-color: #333;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #nav a 
+    {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    #nav a:hover 
+    {
+      background-color: #575757;
+    }
+    
+    #main 
+    {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation: slideIn 1s ease-out;
+    }
+
+    @keyframes slideIn 
+    {
+      from { transform: translateX(-100%); }
+      to { transform: translateX(0); }
+    }
+    
+    #image, #text 
+    {
+      flex: 1;
+      min-width: 300px;
+      margin: 10px;
+    }
+    
+    #image img 
+    {
+      max-width: 100%;
+      height: auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #additional-text 
+    {
+      border-top: 2px solid #4CAF50;
+      padding-top: 10px;
+      margin-top: 20px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .small-heading 
+    {
+      font-size: 1.125rem;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    
+    .details 
+    {
+      margin: 5px 0;
+    }
+
+    footer 
+    {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    #text, #additional-text, #contact-info 
+    {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .equation 
+    {
+      text-align: center;
+    }
+
+    #contact-info 
+    {
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse 
+    {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    @keyframes fadeIn 
+    {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @media (min-width: 768px) 
+    {
+      #text, #additional-text, #contact-info 
+      {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <h1>Project 3: Today</h1>
+    </div>
+    <div id="nav">
+      <a href="Modern - home.html">Home</a>
+      <a href="Modern - Project1.html">Project 1</a>
+      <a href="Modern - Project2.html">Project 2</a>
+      <a href="Modern - Project4.html">Project 4</a>
+    </div>
+    <div id="main">
+      <!-- <center>Video goes here!</center> -->
+      
+        <div class="center">
+          <iframe width="700" height="500" src="https://www.youtube.com/embed/vTULoIxTdTA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+      	<div id="text">
+      
+        <p>The purpose of this java program is to provide real time weather data for the average everyday user. It uses several libraries and APIs in order to achieve its functionality by displaying fetched information for various cities. The API used in this program was provided by Tomorrow.io, a weather intelligence and resilience platform designed to help organizations predict, prepare for, and respond to weather and climate-related challenges. The code is broken down into several portions that handle different aspects such as API usage, handling events, and updating weather data.</p>  
+     
+        <p>In order for this program to function, it requires an application programming interface (API) that can retrieve and display weather information. While it is technically possible to scrape data from Google search results, it was here where it was discovered that web scraping is a violation against Google’s Terms of Service. By using an API from Tomorrow.io, this java program is able to legally obtain weather information. A method labeled as fetchWeatherData method is responsible for fetching weather data from the Tomorrow.io API. It creates a new thread to perform the network operation to avoid blocking the EDT. The method constructs the API URL, sends an HTTP GET request, and reads the response. It then parses the JSON response to extract weather information such as cloud cover, temperature, wind speed, and humidity.</p>
+
+        <p>Given how this code is able to display current weather patterns, when using this API, the data being retrieved is in its original celsius form and is following information based on a twenty-four hour clock. In order to provide American-based users a simple way to understand the displayed information, several methods were implemented. One method, updated the date and time label based on the city's time zone before displaying the results in the form of a digital twelve hour clock. Also, in-order to prevent the program from accidentally switching between two time zones, two methods were also added onto the code. The startClock method creates a new Timer that calls the updateDateTime method every second. The updateDateTime method formats the current date and time based on the city's time zone and updates the label.</p>
+     
+        <p>Moving onto the next portion of the program, the main function is to have users enter the name of a city. The goal was to attempt to mimic the same actions one would take when using more popular platforms, such as Google. The user enters the name of a city in the JTextField and the code listens for changes in the text field using a DocumentListener. As the user types, the showSuggestions method displays a list of city suggestions that match the input. When the user selects a city from the suggestions, the fetchWeatherData method is called. It should be noted that in order for users to retrieve accurate information, they must choose from the selected cities. Should the user enter a city that is not on the display list, the program will fail. If the city is not in the predefined list, the application cannot guarantee that the API will return valid data. This helps in maintaining the reliability of the application.</p>
+     
+        <p class="last-paragraph">The purpose of this java program is to provide real time weather data for the average everyday user. The program is divided into multiple sections that handle API usage, event handling, and weather data updates. The fetchWeatherData method is responsible for retrieving weather data from the Tomorrow.io API, creating a new thread to perform network operations without blocking the EDT. The program also constructs the API URL, sends an HTTP GET request, reads the response, and parses the JSON data to extract weather information such as cloud cover, temperature, wind speed, and humidity, before displaying the information for American users, once a city has been entered.</p>
+    </div>
+  </div>
+  <footer>
+    <p>© 2024 Hector Arvizu</p>
+  </footer>
+</body>
+</html>
+
+
+
+<!-- PAGE 4 -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project 4: Inside</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <style type="text/css">
+    body 
+    {
+      text-align: left;
+      background: linear-gradient(to bottom, #f4f4f9, #E0E0E6);
+      color: #333;
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #wrapper 
+    {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    #header 
+    {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 4px solid #388E3C;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    #nav 
+    {
+      background-color: #333;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 10px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #nav a 
+    {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    #nav a:hover 
+    {
+      background-color: #575757;
+    }
+    
+    #main 
+    {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      animation: slideIn 1s ease-out;
+    }
+
+    @keyframes slideIn 
+    {
+      from { transform: translateX(-100%); }
+      to { transform: translateX(0); }
+    }
+    
+    #image, #text 
+    {
+      flex: 1;
+      min-width: 300px;
+      margin: 10px;
+    }
+    
+    #image img 
+    {
+      max-width: 100%;
+      height: auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #additional-text 
+    {
+      border-top: 2px solid #4CAF50;
+      padding-top: 10px;
+      margin-top: 20px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .small-heading 
+    {
+      font-size: 1.125rem;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    
+    .details 
+    {
+      margin: 5px 0;
+    }
+
+    footer 
+    {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    #text, #additional-text, #contact-info 
+    {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      width: 100%;
+      text-align: left;
+    }
+
+    .equation 
+    {
+      text-align: center;
+    }
+
+    #contact-info 
+    {
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse 
+    {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    
+    @keyframes fadeIn 
+    {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @media (min-width: 768px) 
+    {
+      #text, #additional-text, #contact-info 
+      {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="header">
+      <h1>Project 4: Inside</h1>
+    </div>
+    <div id="nav">
+      <a href="Modern - home.html">Home</a>
+      <a href="Modern - Project1.html">Project 1</a>
+      <a href="Modern - Project2.html">Project 2</a>
+      <a href="Modern - Project3.html">Project 3</a>
+    </div>
+    <div id="main">
+      <!-- <center>Video goes here!</center> -->
+      
+        <div class="center">
+          <iframe width="700" height="500" src="https://www.youtube.com/embed/gPQvgs46f_A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+
+      	<div id="text">
+      
+        <p>The integration of three distinct Java projects—WAS Fitness Tracker, Movie Recommendation System, and Real-Time Weather Data Application—showcases the versatility and potential of Java programming in creating user-centric applications. Each project addresses a unique aspect of daily life, from fitness tracking and movie selection to weather forecasting, demonstrating how technology can enhance our everyday experiences.</p>  
+     
+        <p>The WAS Fitness Tracker app is designed to help users achieve their fitness goals by providing a comprehensive platform for tracking workouts, monitoring diet, and planning fitness routines. Developed in three phases, the app allows users to create an account, input health information, and receive personalized diet and workout plans based on their BMI and other health data. The app’s main menu features options for accessing diet plans, exercise routines, and making final adjustments, ensuring a tailored fitness experience. Future updates aim to enhance user experience by incorporating data-saving features, notifications, and nutritional information from dietitians.</p>
+
+        <p>In contrast, the Movie Recommendation System focuses on entertainment, offering users an informative way to decide which movies to watch. By allowing users to enter and store movie details, including various critic scores, the program calculates an overall score to rank films. This system provides a visual representation of movie rankings, highlighting the best-rated films and enabling users to make informed decisions. Initially intended to scrape data from Google, the project now relies on APIs from movie databases to fetch ratings, ensuring legal compliance and accurate data retrieval.</p>
+     
+        <p>Lastly, the Real-Time Weather Data Application provides users with up-to-date weather information using APIs from Tomorrow.io. The program retrieves weather data, including cloud cover, temperature, wind speed, and humidity, and displays it in a user-friendly format. Users can enter a city name to receive accurate weather updates, with the program offering city suggestions to ensure valid data retrieval. This application emphasizes reliability and simplicity, making it an effective tool for accessing real-time weather information.</p>
+     
+        <p class="last-paragraph">Together, these projects illustrate the diverse applications of Java programming in creating practical, user-friendly solutions for fitness tracking, movie recommendations, and weather forecasting. By addressing different aspects of daily life, these applications demonstrate the potential of technology to improve our everyday experiences.</p>
+    </div>
+  </div>
+  <footer>
+    <p>© 2024 Hector Arvizu</p>
+  </footer>
+</body>
+</html>
